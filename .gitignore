@@ -1,0 +1,10 @@
+/target
+# /extractor
+
+/.vscode
+/.cargo
+
+*.mp4
+*.webm
+*.svg
+*.lock

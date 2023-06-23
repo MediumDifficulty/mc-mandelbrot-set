@@ -1,0 +1,3 @@
+# Purely for compiler optimisations
+[toolchain]
+channel = "nightly"

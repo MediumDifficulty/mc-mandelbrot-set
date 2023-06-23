@@ -1,0 +1,22 @@
+[package]
+name = "mcvideo-3"
+version = "0.2.0"
+edition = "2021"
+description = "A custom Minecraft server powered by Valence to play video files"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+debug=false
+
+[dependencies]
+valence = { git = "https://github.com/valence-rs/valence" }
+bevy_ecs = "0.10.0"
+num-integer = "0.1.45"
+rayon = "1.7.0"
+zip = "0.6.4"
+
+env_logger = "0.10.0"
+log = "0.4.17"
+clap = { version = "4.3.4", features = ["cargo", "derive"] }
+cudarc = "0.9.10"
